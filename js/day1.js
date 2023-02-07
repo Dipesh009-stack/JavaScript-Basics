@@ -3,7 +3,7 @@
 
 var title = "Mind Risers";
 const address = "Putallisadak";
-let ecmai = "abc@gmail.com";
+let email = "abc@gmail.com";
 
 var course  = "MERN Stack and Web Development";
 var price = 1500;
