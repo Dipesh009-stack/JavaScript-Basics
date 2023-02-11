@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript events    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body onload="loadEvent()">
+    <div class="container">
+        <h1>JavaScript events</h1>
+
+       <div class="row" style="background-color: aqua; padding: 10px; color: white;">
+         <form action="#">
+            <div class="col-md-4">
+                <div class="form-group mb-4" id="username" style="display: none;">
+                    <label for="username">Username</label>
+                    <input onkeyup="keyReleasedEvent()" onkeypress="keyPressedEvent()" onfocus="focusEvent()" id= "uname" type="text" class="form-control" style="width: 200px;">
+                    <span id="msg" style="color:white"> </span>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            
+        </form>
+         <button class="btn btn-success" id="submit" onclick="clickEvent()" onmouseover = "mouseOverEvent()">Submit</button>
+
+       </div>
+    </div>
+<script src="js/day6.js"></script>   
+</body>
+</html>
