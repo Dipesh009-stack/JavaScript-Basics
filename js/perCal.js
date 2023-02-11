@@ -23,3 +23,10 @@ function percentage2(){
     console.log(english1 + math1 + nepali1 + science1 + social1 + health1);
     document.getElementById("result").value = percentage;
 }
+
+
+/***
+ * for loop 
+ * 2.for in
+ * 3.
+ */
